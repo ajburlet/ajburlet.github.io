@@ -25,7 +25,7 @@ var hierarchy =
     [ "OMatrixStack", "class_o_matrix_stack.html", null ],
     [ "OMemoryPool", "class_o_memory_pool.html", null ],
     [ "OMemoryPoolObject< blockSize, segmentSize >", "class_o_memory_pool_object.html", null ],
-    [ "OMemoryPoolObject< 2 *sizeof(OEvent), 32 >", "class_o_memory_pool_object.html", [
+    [ "OMemoryPoolObject< OEVENT_MP_BLOCKSIZE, OEVENT_MP_SEGMENTSIZE >", "class_o_memory_pool_object.html", [
       [ "OMemoryPoolEvent", "class_o_memory_pool_event.html", null ]
     ] ],
     [ "OMesh", "class_o_mesh.html", [

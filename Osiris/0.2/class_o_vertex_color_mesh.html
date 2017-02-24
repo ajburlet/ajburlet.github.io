@@ -134,8 +134,9 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_vertex_color_mesh.html#a24c30b4e56b2befcf099a47a283e30ec">OVertexColorMesh</a> ()</td></tr>
 <tr class="memdesc:a24c30b4e56b2befcf099a47a283e30ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class constructor. <br /></td></tr>
 <tr class="separator:a24c30b4e56b2befcf099a47a283e30ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a113dfe3e02011b66c3e06a752d1fd9c7"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_vertex_color_mesh.html#a113dfe3e02011b66c3e06a752d1fd9c7">~OVertexColorMesh</a> ()</td></tr>
-<tr class="memdesc:a113dfe3e02011b66c3e06a752d1fd9c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class destructor.  <a href="#a113dfe3e02011b66c3e06a752d1fd9c7">More...</a><br /></td></tr>
+<tr class="memitem:a113dfe3e02011b66c3e06a752d1fd9c7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a113dfe3e02011b66c3e06a752d1fd9c7"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_vertex_color_mesh.html#a113dfe3e02011b66c3e06a752d1fd9c7">~OVertexColorMesh</a> ()</td></tr>
+<tr class="memdesc:a113dfe3e02011b66c3e06a752d1fd9c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class destructor. <br /></td></tr>
 <tr class="separator:a113dfe3e02011b66c3e06a752d1fd9c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a069d058a1d168fd91f925edb7bc8aac7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_vertex_color_mesh.html#a069d058a1d168fd91f925edb7bc8aac7">addVertexColorData</a> (float r, float g, float b, float alpha)</td></tr>
 <tr class="memdesc:a069d058a1d168fd91f925edb7bc8aac7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add color definition values for each vertex.  <a href="#a069d058a1d168fd91f925edb7bc8aac7">More...</a><br /></td></tr>
@@ -227,39 +228,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Mesh class in which colors can be defined for each vertex. </p>
 <p>The surface color of each triangle will be an interpolation between the values set for each vertex. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a113dfe3e02011b66c3e06a752d1fd9c7"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">OVertexColorMesh::~OVertexColorMesh </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">{</div><div class="line">    <span class="keywordflow">if</span> (_colorVertexProgram == NULL) {</div><div class="line">        _colorVertexProgram = <span class="keyword">new</span> <a class="code" href="class_o_shader_program.html">OShaderProgram</a>(<span class="stringliteral">&quot;ColorVertex&quot;</span>);</div><div class="line"></div><div class="line">        _colorVertexProgram-&gt;<a class="code" href="class_o_shader_program.html#a5d133a327fda1b578922f622a30eda6a">addShader</a>(<a class="code" href="class_o_shader_object.html#a3444c3fc62218836d1b2cfa39d235f7caa8bc70af1a6321cccca1d5dd5f31ad92">OShaderObject::ShaderType_Vertex</a>, <span class="stringliteral">&quot;VertexSmoothColor&quot;</span>, IDR_SHADER_VERTEX_SMOOTHCOLOR);</div><div class="line">        _colorVertexProgram-&gt;<a class="code" href="class_o_shader_program.html#a5d133a327fda1b578922f622a30eda6a">addShader</a>(<a class="code" href="class_o_shader_object.html#a3444c3fc62218836d1b2cfa39d235f7ca49e158b007a29e08295d7843703918bf">OShaderObject::ShaderType_Fragment</a>, <span class="stringliteral">&quot;FragmentStandardColor&quot;</span>, IDR_SHADER_FRAGMENT_STANDARDCOLOR);</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line">        _colorVertexProgram-&gt;<a class="code" href="class_o_shader_program.html#ac3150de811d95d3e98c6f651c92b1b7c">compile</a>();</div><div class="line">    }</div><div class="line">    <a class="code" href="class_o_mesh.html#a9848358e1deeec20fb67353522dc476d">setProgram</a>(_colorVertexProgram)</div><div class="ttc" id="class_o_shader_program_html"><div class="ttname"><a href="class_o_shader_program.html">OShaderProgram</a></div><div class="ttdoc">Class that represents a shader program. </div><div class="ttdef"><b>Definition:</b> OShaderProgram.h:21</div></div>
-<div class="ttc" id="class_o_shader_object_html_a3444c3fc62218836d1b2cfa39d235f7caa8bc70af1a6321cccca1d5dd5f31ad92"><div class="ttname"><a href="class_o_shader_object.html#a3444c3fc62218836d1b2cfa39d235f7caa8bc70af1a6321cccca1d5dd5f31ad92">OShaderObject::ShaderType_Vertex</a></div><div class="ttdef"><b>Definition:</b> OShaderObject.h:22</div></div>
-<div class="ttc" id="class_o_shader_object_html_a3444c3fc62218836d1b2cfa39d235f7ca49e158b007a29e08295d7843703918bf"><div class="ttname"><a href="class_o_shader_object.html#a3444c3fc62218836d1b2cfa39d235f7ca49e158b007a29e08295d7843703918bf">OShaderObject::ShaderType_Fragment</a></div><div class="ttdef"><b>Definition:</b> OShaderObject.h:23</div></div>
-<div class="ttc" id="class_o_shader_program_html_a5d133a327fda1b578922f622a30eda6a"><div class="ttname"><a href="class_o_shader_program.html#a5d133a327fda1b578922f622a30eda6a">OShaderProgram::addShader</a></div><div class="ttdeci">void addShader(OShaderObject *shader)</div><div class="ttdoc">Add a shader object to the program. </div><div class="ttdef"><b>Definition:</b> OShaderProgram.cpp:23</div></div>
-<div class="ttc" id="class_o_shader_program_html_ac3150de811d95d3e98c6f651c92b1b7c"><div class="ttname"><a href="class_o_shader_program.html#ac3150de811d95d3e98c6f651c92b1b7c">OShaderProgram::compile</a></div><div class="ttdeci">void compile()</div><div class="ttdoc">Compiles shader objects and links the shader program. </div><div class="ttdef"><b>Definition:</b> OShaderProgram.cpp:47</div></div>
-<div class="ttc" id="class_o_mesh_html_a9848358e1deeec20fb67353522dc476d"><div class="ttname"><a href="class_o_mesh.html#a9848358e1deeec20fb67353522dc476d">OMesh::setProgram</a></div><div class="ttdeci">void setProgram(OShaderProgram *program)</div><div class="ttdoc">Sets a new shader program to be used to render the object. glTexImage2D() </div><div class="ttdef"><b>Definition:</b> OMesh.cpp:21</div></div>
-</div><!-- fragment -->
-<p>Class destructor. </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a069d058a1d168fd91f925edb7bc8aac7"></a>
 <div class="memitem">
 <div class="memproto">

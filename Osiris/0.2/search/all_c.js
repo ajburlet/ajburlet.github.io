@@ -16,7 +16,7 @@ var searchData=
   ['omemorypool',['OMemoryPool',['../class_o_memory_pool.html',1,'OMemoryPool'],['../class_o_memory_pool.html#a8a3dd175f107a78ebc6a6ae7ced62dca',1,'OMemoryPool::OMemoryPool()']]],
   ['omemorypoolevent',['OMemoryPoolEvent',['../class_o_memory_pool_event.html',1,'OMemoryPoolEvent'],['../class_o_memory_pool_event.html#a42a77ffd798cca67aaa311c953e82ff0',1,'OMemoryPoolEvent::OMemoryPoolEvent()']]],
   ['omemorypoolobject',['OMemoryPoolObject',['../class_o_memory_pool_object.html',1,'OMemoryPoolObject&lt; blockSize, segmentSize &gt;'],['../class_o_memory_pool_object.html#a806c01887465e3311d7b886ee30d4c16',1,'OMemoryPoolObject::OMemoryPoolObject()']]],
-  ['omemorypoolobject_3c_202_20_2asizeof_28oevent_29_2c_2032_20_3e',['OMemoryPoolObject&lt; 2 *sizeof(OEvent), 32 &gt;',['../class_o_memory_pool_object.html',1,'']]],
+  ['omemorypoolobject_3c_20oevent_5fmp_5fblocksize_2c_20oevent_5fmp_5fsegmentsize_20_3e',['OMemoryPoolObject&lt; OEVENT_MP_BLOCKSIZE, OEVENT_MP_SEGMENTSIZE &gt;',['../class_o_memory_pool_object.html',1,'']]],
   ['omesh',['OMesh',['../class_o_mesh.html',1,'OMesh'],['../class_o_mesh.html#aec3735069b982fffb4611c05832a5ed8',1,'OMesh::OMesh()']]],
   ['omeshbuffer',['OMeshBuffer',['../class_o_mesh_buffer.html',1,'OMeshBuffer&lt; BType &gt;'],['../class_o_mesh_buffer.html#a6e13ccebf6ca847870a924cb288904f8',1,'OMeshBuffer::OMeshBuffer()']]],
   ['omeshbuffer_3c_20float_20_3e',['OMeshBuffer&lt; float &gt;',['../class_o_mesh_buffer.html',1,'']]],

@@ -15,7 +15,7 @@ var searchData=
   ['omemorypool',['OMemoryPool',['../class_o_memory_pool.html',1,'']]],
   ['omemorypoolevent',['OMemoryPoolEvent',['../class_o_memory_pool_event.html',1,'']]],
   ['omemorypoolobject',['OMemoryPoolObject',['../class_o_memory_pool_object.html',1,'']]],
-  ['omemorypoolobject_3c_202_20_2asizeof_28oevent_29_2c_2032_20_3e',['OMemoryPoolObject&lt; 2 *sizeof(OEvent), 32 &gt;',['../class_o_memory_pool_object.html',1,'']]],
+  ['omemorypoolobject_3c_20oevent_5fmp_5fblocksize_2c_20oevent_5fmp_5fsegmentsize_20_3e',['OMemoryPoolObject&lt; OEVENT_MP_BLOCKSIZE, OEVENT_MP_SEGMENTSIZE &gt;',['../class_o_memory_pool_object.html',1,'']]],
   ['omesh',['OMesh',['../class_o_mesh.html',1,'']]],
   ['omeshbuffer',['OMeshBuffer',['../class_o_mesh_buffer.html',1,'']]],
   ['omeshbuffer_3c_20float_20_3e',['OMeshBuffer&lt; float &gt;',['../class_o_mesh_buffer.html',1,'']]],
