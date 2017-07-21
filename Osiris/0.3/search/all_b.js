@@ -1,9 +1,7 @@
 var searchData=
 [
   ['maxconstraint',['maxConstraint',['../class_o_state.html#a65138ef6d596030ad9f831282c14c732',1,'OState']]],
-  ['maximum',['maximum',['../class_o_stats.html#a88cbec037ce0484bdaf4c466b39bea4c',1,'OStats']]],
   ['minconstraint',['minConstraint',['../class_o_state.html#a9ebaca0b308b78996342d441705886e8',1,'OState']]],
-  ['minimum',['minimum',['../class_o_stats.html#a1da7209b5da544d8f8be7faefc8c84ee',1,'OStats']]],
   ['motioncomponent',['motionComponent',['../class_o_state.html#ae23156a455fd4d220d7914c7d36f423e',1,'OState::motionComponent(int degree, OrientationReferencial orRef) const '],['../class_o_state.html#a3e5c96dfac1725c3af225fbcbaea03bb',1,'OState::motionComponent(int degree)']]],
   ['mouseactivemoveevent',['MouseActiveMoveEvent',['../class_o_event.html#a6ba46a51e55f2a5db3ca6618e626a166ad86ac554f0ca75ffe21fc3e5a5557230',1,'OEvent']]],
   ['mouseclickevent',['MouseClickEvent',['../class_o_event.html#a6ba46a51e55f2a5db3ca6618e626a166a873889bd8dad405dbdfd61baaa2a1b1b',1,'OEvent']]],
