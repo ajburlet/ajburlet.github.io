@@ -1,0 +1,36 @@
+var class_o_vector3 =
+[
+    [ "Axis", "class_o_vector3.html#aa2fd5f345516f08fa7269984213ff0ba", [
+      [ "X", "class_o_vector3.html#aa2fd5f345516f08fa7269984213ff0baa40e8977d095fb9dc0108b78f32cc8fa2", null ],
+      [ "Y", "class_o_vector3.html#aa2fd5f345516f08fa7269984213ff0baa26a56680ec8be1fde4f7c913b63c29f4", null ],
+      [ "Z", "class_o_vector3.html#aa2fd5f345516f08fa7269984213ff0baa53e8f2700831228157f7b7b8feae2d73", null ],
+      [ "R", "class_o_vector3.html#aa2fd5f345516f08fa7269984213ff0baaf33cbc65888e694e51307db104995593", null ],
+      [ "Theta", "class_o_vector3.html#aa2fd5f345516f08fa7269984213ff0baa54e81e240de9ed2d8a3f9761357ed905", null ],
+      [ "Phi", "class_o_vector3.html#aa2fd5f345516f08fa7269984213ff0baa0ebabde9fd590e3bdc2cf05134bf2ce4", null ],
+      [ "G", "class_o_vector3.html#aa2fd5f345516f08fa7269984213ff0baa38af33ee7a468c18705f5f1bb5d7e0d2", null ],
+      [ "B", "class_o_vector3.html#aa2fd5f345516f08fa7269984213ff0baaa9ad37c28bf166d696580e18f1aa2727", null ]
+    ] ],
+    [ "OVector3", "class_o_vector3.html#a8483ef3522e566869d9e81732b250a23", null ],
+    [ "OVector3", "class_o_vector3.html#aca61f0b04e377dc6a0a12d2e0ea04ac3", null ],
+    [ "OVector3", "class_o_vector3.html#a1e65ec47efc601ce08d31b58835a5036", null ],
+    [ "OVector3", "class_o_vector3.html#a446294908ef31062dbc73d2169843c2d", null ],
+    [ "OVector3", "class_o_vector3.html#a6983e929d71fc072577bda2b8d76872e", null ],
+    [ "~OVector3", "class_o_vector3.html#ae35ecf6f63d7b0c7f7dd62fcebe5e059", null ],
+    [ "cross", "class_o_vector3.html#a41c2a15e9c4659b74abfbdae54d8174c", null ],
+    [ "dot", "class_o_vector3.html#abf231b8104e0f2d3e5a4903bedae3a1c", null ],
+    [ "operator[]", "class_o_vector3.html#ab392161f67d5de8be4f29da8dfb46276", null ],
+    [ "phi", "class_o_vector3.html#abec769e4c40d8e2a125f637417425908", null ],
+    [ "r", "class_o_vector3.html#ae73f25644ba022b7600a30601b879b4e", null ],
+    [ "setPhi", "class_o_vector3.html#a83a6a80019604c683bb896a02ce349d3", null ],
+    [ "setR", "class_o_vector3.html#a4f90ea557fbb150dc5a6598449d6aca5", null ],
+    [ "setTheta", "class_o_vector3.html#a252d4f8c78127bbf48d553ae9c8ace9c", null ],
+    [ "setX", "class_o_vector3.html#a5645c127ec6d6114de2cf690c966a8d5", null ],
+    [ "setY", "class_o_vector3.html#a93f89055a1475106ff2a9c75cce95556", null ],
+    [ "setZ", "class_o_vector3.html#a1474fe4a94f1f63de53b81dab18bb64d", null ],
+    [ "theta", "class_o_vector3.html#a9ec78e655a9135a291d791b730a43120", null ],
+    [ "toCartesian", "class_o_vector3.html#a9accf521e5f20244bde343d3e40c15e8", null ],
+    [ "toSpherical", "class_o_vector3.html#a2fc073b917bc48e06daf66ba4eb7caaa", null ],
+    [ "x", "class_o_vector3.html#a7ef15dba69081ee011e2e61e1684c698", null ],
+    [ "y", "class_o_vector3.html#ae0678e7b22a06266d2fa493875e2a28c", null ],
+    [ "z", "class_o_vector3.html#a63d34e2c84e40343d3f71e69a1abe589", null ]
+];
